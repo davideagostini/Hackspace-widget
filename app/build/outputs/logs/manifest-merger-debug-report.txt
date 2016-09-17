@@ -1,0 +1,93 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:7:22-64
+application
+ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:9:5-35:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/davide/AndroidStudioProjects/Hackspace-widget/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/davide/AndroidStudioProjects/Hackspace-widget/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/davide/AndroidStudioProjects/Hackspace-widget/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/davide/AndroidStudioProjects/Hackspace-widget/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/davide/AndroidStudioProjects/Hackspace-widget/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/davide/AndroidStudioProjects/Hackspace-widget/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/davide/AndroidStudioProjects/Hackspace-widget/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/davide/AndroidStudioProjects/Hackspace-widget/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:12:9-41
+	android:allowBackup
+		ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:11:9-45
+service#it.hackspacewidget.UpdateStatusWidgetService
+ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:13:9-62
+	android:name
+		ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:13:18-59
+receiver#it.hackspacewidget.AppWidget
+ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:15:9-25:20
+	android:icon
+		ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:17:13-49
+	android:name
+		ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:16:13-38
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:18:13-20:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:19:17-84
+	android:name
+		ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:19:25-81
+meta-data#android.appwidget.provider
+ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:22:13-24:55
+	android:resource
+		ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:24:17-52
+	android:name
+		ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:23:17-58
+activity#it.hackspacewidget.MainActivity
+ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:26:9-34:20
+	android:theme
+		ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:28:13-72
+	android:name
+		ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:27:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:30:17-68
+	android:name
+		ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml:32:27-74
+uses-sdk
+INJECTED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/davide/AndroidStudioProjects/Hackspace-widget/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/davide/AndroidStudioProjects/Hackspace-widget/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/davide/AndroidStudioProjects/Hackspace-widget/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/davide/AndroidStudioProjects/Hackspace-widget/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/davide/AndroidStudioProjects/Hackspace-widget/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/davide/AndroidStudioProjects/Hackspace-widget/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/davide/AndroidStudioProjects/Hackspace-widget/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/davide/AndroidStudioProjects/Hackspace-widget/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/davide/AndroidStudioProjects/Hackspace-widget/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davide/AndroidStudioProjects/Hackspace-widget/app/src/main/AndroidManifest.xml

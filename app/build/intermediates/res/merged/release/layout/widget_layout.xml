@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:paddingBottom="4dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="4dp" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dip" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/nd_desc"
+            android:gravity="center_horizontal|center_vertical"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/relativeLayout1"
+        android:layout_toRightOf="@+id/relativeLayout1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/statusText"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</RelativeLayout>
